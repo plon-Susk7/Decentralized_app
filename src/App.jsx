@@ -9,6 +9,7 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 
 import { Airdrop } from './Airdrop';
+import { ShowBalance } from './ShowBalance';
 
 // Default styles that can be overridden by your app
 import '@solana/wallet-adapter-react-ui/styles.css';
@@ -29,6 +30,7 @@ function App() {
                    <h1>Creating First De-Centralized Application</h1>
                 </div>
                 <Airdrop/>
+                <ShowBalance/>
                 { /* Your app's components go here, nested within the context providers. */ }
             </WalletModalProvider>
         </WalletProvider>
