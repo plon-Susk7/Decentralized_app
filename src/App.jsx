@@ -10,6 +10,7 @@ import {
 
 import { Airdrop } from './Airdrop';
 import { ShowBalance } from './ShowBalance';
+import { SendToken } from './SendToken';
 
 // Default styles that can be overridden by your app
 import '@solana/wallet-adapter-react-ui/styles.css';
@@ -31,6 +32,7 @@ function App() {
                 </div>
                 <Airdrop/>
                 <ShowBalance/>
+                <SendToken/>
                 { /* Your app's components go here, nested within the context providers. */ }
             </WalletModalProvider>
         </WalletProvider>
