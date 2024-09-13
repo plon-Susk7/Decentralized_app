@@ -21,7 +21,7 @@ export function SendToken(){
         );
 
         await wallet.sendTransaction(transaction, connection);
-        alert("Sent " + amount + " SOL to " + to);
+        alert("Sent " + amount + " SOL to " + recipient);
     }
 
     return (
